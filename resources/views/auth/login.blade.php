@@ -59,6 +59,19 @@
                                 </a>
                             </div>
                         </div>
+
+                        <div class="form-group">
+                            <div class="col-md-6 col-md-offset-4">
+                                <a class="btn btn-primary btn-facebook" href="{{ url('/auth/facebook') }}">
+                                    <i class="fa fa-facebook"></i>
+                                    Facebook Login
+                                </a>
+                                <a class="btn btn-primary btn-google pull-right" href="{{ url('/auth/google') }}">
+                                    <i class="fa fa-google-plus"></i>
+                                    Google Login
+                                </a>
+                            </div>
+                        </div>
                     </form>
                 </div>
             </div>
